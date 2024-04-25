@@ -58,7 +58,7 @@ spec:
           value: '3600'
       git:
         branch: 2.x
-        repo_clone_url: https://github.com/hashlips-lab/safe-nft-metadata-provider.git
+        repo_clone_url: https://github.com/skyrocktech/safe-nft-metadata-provider.git
       instance_count: 1
       instance_size_slug: basic-xxs
       name: metadata-provider

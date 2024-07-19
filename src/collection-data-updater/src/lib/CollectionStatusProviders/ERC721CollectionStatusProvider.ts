@@ -102,7 +102,7 @@ export default class ERC721CollectionStatusProvider
       latestBlock -= 3000;
     }
     const tokenIds = latestMints.map((m) =>
-      Number((m!.args!.tokenId as BigNumberish).toString())
+      Number((m!.args!.tokenId as BigNumber).toString())
     );
     const lastMintedTokenId = Math.max(...tokenIds);
     return BigNumber.from(lastMintedTokenId);

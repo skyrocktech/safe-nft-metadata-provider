@@ -53,11 +53,15 @@ spec:
         - key: S3_PATH_PREFIX
           scope: RUN_TIME
 
+        - key: CREATOR_TXN_BLOCK_NUMBER
+          scope: RUN_TIME
+          value: '0'
+
         - key: FULL_REFRESH_DELAY
           scope: RUN_TIME
           value: '3600'
       git:
-        branch: 2.x
+        branch: dn404
         repo_clone_url: https://github.com/skyrocktech/safe-nft-metadata-provider.git
       instance_count: 1
       instance_size_slug: basic-xxs

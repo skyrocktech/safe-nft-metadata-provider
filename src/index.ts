@@ -9,7 +9,7 @@ import {
   S3ConfigurationInterface,
   UpdateAllTokensEveryNSecondsRuntime,
   UpdateTokenOnMintRuntime,
-} from "@hashlips-lab/collection-data-updater";
+} from "./collection-data-updater/src";
 
 const contract = new ERC721Contract(
   config.CONTRACT_ADDRESS,

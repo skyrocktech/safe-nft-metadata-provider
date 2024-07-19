@@ -31,5 +31,6 @@ export const config = {
   PRIVATE_METADATA_PATH: getEnvironmentVariable("PRIVATE_METADATA_PATH"),
   PUBLIC_METADATA_PATH: getEnvironmentVariable("PUBLIC_METADATA_PATH"),
   PUBLIC_ASSETS_URI_TEMPLATE: getEnvironmentVariable("PUBLIC_ASSETS_URI_TEMPLATE"),
+  CREATOR_TXN_BLOCK_NUMBER: getEnvironmentVariable("CREATOR_TXN_BLOCK_NUMBER"),
   FULL_REFRESH_DELAY: getEnvironmentVariable("FULL_REFRESH_DELAY"),
 };
